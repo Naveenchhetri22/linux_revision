@@ -1,0 +1,250 @@
+2026-03-02T06:54:59.740629+00:00 ip-172-31-36-148 systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+2026-03-02T06:54:59.749941+00:00 ip-172-31-36-148 systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+2026-03-02T06:54:59.749960+00:00 ip-172-31-36-148 systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+2026-03-02T06:54:59.749965+00:00 ip-172-31-36-148 systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+2026-03-02T06:54:59.749969+00:00 ip-172-31-36-148 systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+2026-03-02T06:54:59.749974+00:00 ip-172-31-36-148 systemd[1]: Finished kmod-static-nodes.service - Create List of Static Device Nodes.
+2026-03-02T06:54:59.749979+00:00 ip-172-31-36-148 systemd[1]: modprobe@configfs.service: Deactivated successfully.
+2026-03-02T06:54:59.749984+00:00 ip-172-31-36-148 systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+2026-03-02T06:54:59.749991+00:00 ip-172-31-36-148 systemd[1]: modprobe@dm_mod.service: Deactivated successfully.
+2026-03-02T06:54:59.749996+00:00 ip-172-31-36-148 systemd[1]: Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+2026-03-02T06:54:59.750000+00:00 ip-172-31-36-148 systemd[1]: modprobe@drm.service: Deactivated successfully.
+2026-03-02T06:54:59.750005+00:00 ip-172-31-36-148 systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+2026-03-02T06:54:59.750009+00:00 ip-172-31-36-148 systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+2026-03-02T06:54:59.750014+00:00 ip-172-31-36-148 systemd[1]: Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+2026-03-02T06:54:59.750021+00:00 ip-172-31-36-148 systemd[1]: modprobe@fuse.service: Deactivated successfully.
+2026-03-02T06:54:59.750027+00:00 ip-172-31-36-148 systemd[1]: Finished modprobe@fuse.service - Load Kernel Module fuse.
+2026-03-02T06:54:59.750032+00:00 ip-172-31-36-148 systemd[1]: modprobe@loop.service: Deactivated successfully.
+2026-03-02T06:54:59.750036+00:00 ip-172-31-36-148 systemd[1]: Finished modprobe@loop.service - Load Kernel Module loop.
+2026-03-02T06:54:59.750041+00:00 ip-172-31-36-148 systemd-modules-load[145]: Inserted module 'msr'
+2026-03-02T06:54:59.750046+00:00 ip-172-31-36-148 systemd-fsck[148]: cloudimg-rootfs: clean, 82009/917504 files, 527358/1834747 blocks
+2026-03-02T06:54:59.750067+00:00 ip-172-31-36-148 systemd[1]: Finished lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+2026-03-02T06:54:59.750072+00:00 ip-172-31-36-148 systemd-modules-load[145]: Inserted module 'dm_multipath'
+2026-03-02T06:54:59.750076+00:00 ip-172-31-36-148 systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+2026-03-02T06:54:59.750081+00:00 ip-172-31-36-148 systemd[1]: Mounting sys-kernel-config.mount - Kernel Configuration File System...
+2026-03-02T06:54:59.750086+00:00 ip-172-31-36-148 systemd[1]: Started systemd-fsckd.service - File System Check Daemon to report status.
+2026-03-02T06:54:59.750090+00:00 ip-172-31-36-148 systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+2026-03-02T06:54:59.750097+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully...
+2026-03-02T06:54:59.750102+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-fsck-root.service - File System Check on Root Device.
+2026-03-02T06:54:59.750107+00:00 ip-172-31-36-148 systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+2026-03-02T06:54:59.750112+00:00 ip-172-31-36-148 systemd-modules-load[145]: Inserted module 'nf_conntrack'
+2026-03-02T06:54:59.750116+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+2026-03-02T06:54:59.750121+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-modules-load.service - Load Kernel Modules.
+2026-03-02T06:54:59.750128+00:00 ip-172-31-36-148 systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+2026-03-02T06:54:59.750133+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variables...
+2026-03-02T06:54:59.750137+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+2026-03-02T06:54:59.750142+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+2026-03-02T06:54:59.750146+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+2026-03-02T06:54:59.750150+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+2026-03-02T06:54:59.750158+00:00 ip-172-31-36-148 systemd[1]: Starting multipathd.service - Device-Mapper Multipath Device Controller...
+2026-03-02T06:54:59.750163+00:00 ip-172-31-36-148 systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because no trigger condition checks were met.
+2026-03-02T06:54:59.750167+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+2026-03-02T06:54:59.750171+00:00 ip-172-31-36-148 systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+2026-03-02T06:54:59.750176+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-random-seed.service - Load/Save OS Random Seed...
+2026-03-02T06:54:59.750184+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-sysusers.service - Create System Users...
+2026-03-02T06:54:59.750189+00:00 ip-172-31-36-148 systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-03-02T06:54:59.750193+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
+2026-03-02T06:54:59.750198+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-sysusers.service - Create System Users.
+2026-03-02T06:54:59.750202+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+2026-03-02T06:54:59.750207+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+2026-03-02T06:54:59.750214+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+2026-03-02T06:54:59.750219+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+2026-03-02T06:54:59.750223+00:00 ip-172-31-36-148 multipathd[189]: multipathd v0.9.4: start up
+2026-03-02T06:54:59.750228+00:00 ip-172-31-36-148 multipathd[189]: reconfigure: setting up paths and maps
+2026-03-02T06:54:59.750233+00:00 ip-172-31-36-148 systemd[1]: Started multipathd.service - Device-Mapper Multipath Device Controller.
+2026-03-02T06:54:59.750237+00:00 ip-172-31-36-148 systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+2026-03-02T06:54:59.750245+00:00 ip-172-31-36-148 systemd-udevd[200]: Using default interface naming scheme 'v255'.
+2026-03-02T06:54:59.750249+00:00 ip-172-31-36-148 systemd[1]: Mounting snap-amazon\x2dssm\x2dagent-11797.mount - Mount unit for amazon-ssm-agent, revision 11797...
+2026-03-02T06:54:59.750254+00:00 ip-172-31-36-148 systemd[1]: Mounting snap-core22-2163.mount - Mount unit for core22, revision 2163...
+2026-03-02T06:54:59.750258+00:00 ip-172-31-36-148 systemd[1]: Mounting snap-snapd-25577.mount - Mount unit for snapd, revision 25577...
+2026-03-02T06:54:59.750263+00:00 ip-172-31-36-148 systemd[1]: Mounted snap-amazon\x2dssm\x2dagent-11797.mount - Mount unit for amazon-ssm-agent, revision 11797.
+2026-03-02T06:54:59.750270+00:00 ip-172-31-36-148 systemd[1]: Mounted snap-core22-2163.mount - Mount unit for core22, revision 2163.
+2026-03-02T06:54:59.750275+00:00 ip-172-31-36-148 systemd[1]: Mounted snap-snapd-25577.mount - Mount unit for snapd, revision 25577.
+2026-03-02T06:54:59.750280+00:00 ip-172-31-36-148 systemd[1]: Reached target snapd.mounts.target - Mounted snaps.
+2026-03-02T06:54:59.750285+00:00 ip-172-31-36-148 systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+2026-03-02T06:54:59.750289+00:00 ip-172-31-36-148 systemd[1]: plymouth-start.service - Show Plymouth Boot Screen was skipped because of an unmet condition check (ConditionKernelCommandLine=splash).
+2026-03-02T06:54:59.750294+00:00 ip-172-31-36-148 systemd[1]: Started systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch.
+2026-03-02T06:54:59.750302+00:00 ip-172-31-36-148 systemd[1]: systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch was skipped because of an unmet condition check (ConditionPathExists=/run/plymouth/pid).
+2026-03-02T06:54:59.750306+00:00 ip-172-31-36-148 systemd[1]: Reached target cryptsetup.target - Local Encrypted Volumes.
+2026-03-02T06:54:59.750311+00:00 ip-172-31-36-148 systemd[1]: Found device dev-ttyS0.device - /dev/ttyS0.
+2026-03-02T06:54:59.750316+00:00 ip-172-31-36-148 multipath: nvme0n1: uid = nvme.1d0f-766f6c3030646532386235306562316436356135-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001 (sysfs)
+2026-03-02T06:54:59.750323+00:00 ip-172-31-36-148 systemd[1]: Found device dev-disk-by\x2dlabel-BOOT.device - Amazon Elastic Block Store BOOT.
+2026-03-02T06:54:59.750330+00:00 ip-172-31-36-148 systemd[1]: Found device dev-disk-by\x2dlabel-UEFI.device - Amazon Elastic Block Store UEFI.
+2026-03-02T06:54:59.750335+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-fsck@dev-disk-by\x2dlabel-BOOT.service - File System Check on /dev/disk/by-label/BOOT...
+2026-03-02T06:54:59.750339+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-fsck@dev-disk-by\x2dlabel-UEFI.service - File System Check on /dev/disk/by-label/UEFI...
+2026-03-02T06:54:59.750344+00:00 ip-172-31-36-148 systemd-fsck[254]: BOOT: clean, 601/58496 files, 31107/233728 blocks
+2026-03-02T06:54:59.750350+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-fsck@dev-disk-by\x2dlabel-BOOT.service - File System Check on /dev/disk/by-label/BOOT.
+2026-03-02T06:54:59.750358+00:00 ip-172-31-36-148 systemd-fsck[255]: fsck.fat 4.2 (2021-01-31)
+2026-03-02T06:54:59.750363+00:00 ip-172-31-36-148 systemd-fsck[255]: /dev/nvme0n1p15: 12 files, 12499/213663 clusters
+2026-03-02T06:54:59.750368+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-fsck@dev-disk-by\x2dlabel-UEFI.service - File System Check on /dev/disk/by-label/UEFI.
+2026-03-02T06:54:59.750373+00:00 ip-172-31-36-148 systemd[1]: Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+2026-03-02T06:54:59.750378+00:00 ip-172-31-36-148 systemd[1]: Mounting boot.mount - /boot...
+2026-03-02T06:54:59.750382+00:00 ip-172-31-36-148 systemd[1]: Mounted boot.mount - /boot.
+2026-03-02T06:54:59.750389+00:00 ip-172-31-36-148 systemd[1]: Mounting boot-efi.mount - /boot/efi...
+2026-03-02T06:54:59.750394+00:00 ip-172-31-36-148 systemd[1]: Mounted boot-efi.mount - /boot/efi.
+2026-03-02T06:54:59.750398+00:00 ip-172-31-36-148 systemd[1]: Reached target local-fs.target - Local File Systems.
+2026-03-02T06:54:59.750402+00:00 ip-172-31-36-148 systemd[1]: Listening on systemd-sysext.socket - System Extension Image Management (Varlink).
+2026-03-02T06:54:59.750407+00:00 ip-172-31-36-148 systemd[1]: Starting apparmor.service - Load AppArmor profiles...
+2026-03-02T06:54:59.750412+00:00 ip-172-31-36-148 systemd[1]: Starting console-setup.service - Set console font and keymap...
+2026-03-02T06:54:59.750416+00:00 ip-172-31-36-148 systemd[1]: Starting finalrd.service - Create final runtime dir for shutdown pivot root...
+2026-03-02T06:54:59.750423+00:00 ip-172-31-36-148 systemd[1]: Starting ldconfig.service - Rebuild Dynamic Linker Cache...
+2026-03-02T06:54:59.750428+00:00 ip-172-31-36-148 systemd[1]: Starting plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data...
+2026-03-02T06:54:59.750432+00:00 ip-172-31-36-148 apparmor.systemd[296]: Restarting AppArmor
+2026-03-02T06:54:59.750437+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+2026-03-02T06:54:59.750441+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-tmpfiles-setup.service - Create Volatile Files and Directories...
+2026-03-02T06:54:59.750449+00:00 ip-172-31-36-148 apparmor.systemd[296]: Reloading AppArmor profiles
+2026-03-02T06:54:59.750455+00:00 ip-172-31-36-148 systemd[1]: Starting ufw.service - Uncomplicated firewall...
+2026-03-02T06:54:59.750460+00:00 ip-172-31-36-148 systemd[1]: Finished console-setup.service - Set console font and keymap.
+2026-03-02T06:54:59.750464+00:00 ip-172-31-36-148 systemd[1]: Finished finalrd.service - Create final runtime dir for shutdown pivot root.
+2026-03-02T06:54:59.750468+00:00 ip-172-31-36-148 systemd[1]: Finished ufw.service - Uncomplicated firewall.
+2026-03-02T06:54:59.750473+00:00 ip-172-31-36-148 systemd[1]: Finished plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data.
+2026-03-02T06:54:59.750480+00:00 ip-172-31-36-148 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 306 (systemd-binfmt)
+2026-03-02T06:54:59.750485+00:00 ip-172-31-36-148 systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+2026-03-02T06:54:59.750489+00:00 ip-172-31-36-148 systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+2026-03-02T06:54:59.750494+00:00 ip-172-31-36-148 systemd[1]: Finished ldconfig.service - Rebuild Dynamic Linker Cache.
+2026-03-02T06:54:59.750498+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+2026-03-02T06:54:59.750502+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-tmpfiles-setup.service - Create Volatile Files and Directories.
+2026-03-02T06:54:59.750510+00:00 ip-172-31-36-148 systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-03-02T06:54:59.750514+00:00 ip-172-31-36-148 systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-03-02T06:54:59.750519+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-journal-catalog-update.service - Rebuild Journal Catalog...
+2026-03-02T06:54:59.750524+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-machine-id-commit.service - Commit a transient machine-id on disk...
+2026-03-02T06:54:59.750528+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-resolved.service - Network Name Resolution...
+2026-03-02T06:54:59.750536+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+2026-03-02T06:54:59.750541+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+2026-03-02T06:54:59.750545+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-journal-catalog-update.service - Rebuild Journal Catalog.
+2026-03-02T06:54:59.750550+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-update-done.service - Update is Completed...
+2026-03-02T06:54:59.750555+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-update-done.service - Update is Completed.
+2026-03-02T06:54:59.750559+00:00 ip-172-31-36-148 systemd[1]: etc-machine\x2did.mount: Deactivated successfully.
+2026-03-02T06:54:59.750567+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-machine-id-commit.service - Commit a transient machine-id on disk.
+2026-03-02T06:54:59.750572+00:00 ip-172-31-36-148 systemd-resolved[333]: Positive Trust Anchors:
+2026-03-02T06:54:59.750576+00:00 ip-172-31-36-148 systemd-resolved[333]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+2026-03-02T06:54:59.750581+00:00 ip-172-31-36-148 systemd-resolved[333]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 170.0.0.192.in-addr.arpa 171.0.0.192.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa ipv4only.arpa corp home internal intranet lan local private test
+2026-03-02T06:54:59.750586+00:00 ip-172-31-36-148 systemd-resolved[333]: Using system hostname 'ubuntu'.
+2026-03-02T06:54:59.750593+00:00 ip-172-31-36-148 systemd[1]: Started systemd-resolved.service - Network Name Resolution.
+2026-03-02T06:54:59.750598+00:00 ip-172-31-36-148 systemd[1]: Reached target nss-lookup.target - Host and Network Name Lookups.
+2026-03-02T06:54:59.750602+00:00 ip-172-31-36-148 systemd[1]: Finished apparmor.service - Load AppArmor profiles.
+2026-03-02T06:54:59.750606+00:00 ip-172-31-36-148 systemd[1]: Starting snapd.apparmor.service - Load AppArmor profiles managed internally by snapd...
+2026-03-02T06:54:59.750611+00:00 ip-172-31-36-148 systemd[1]: vgauth.service - Authentication service for virtual machines hosted on VMware was skipped because of an unmet condition check (ConditionVirtualization=vmware).
+2026-03-02T06:54:59.750615+00:00 ip-172-31-36-148 systemd[1]: open-vm-tools.service - Service for virtual machines hosted on VMware was skipped because of an unmet condition check (ConditionVirtualization=vmware).
+2026-03-02T06:54:59.750623+00:00 ip-172-31-36-148 systemd[1]: Starting cloud-init-local.service - Cloud-init: Local Stage (pre-network)...
+2026-03-02T06:54:59.750627+00:00 ip-172-31-36-148 snapd-apparmor[440]: main.go:146: Loading profiles [/var/lib/snapd/apparmor/profiles/snap-confine.snapd.25577 /var/lib/snapd/apparmor/profiles/snap-update-ns.amazon-ssm-agent /var/lib/snapd/apparmor/profiles/snap.amazon-ssm-agent.amazon-ssm-agent /var/lib/snapd/apparmor/profiles/snap.amazon-ssm-agent.ssm-cli]
+2026-03-02T06:54:59.750633+00:00 ip-172-31-36-148 systemd[1]: Finished snapd.apparmor.service - Load AppArmor profiles managed internally by snapd.
+2026-03-02T06:54:59.750637+00:00 ip-172-31-36-148 cloud-init[457]: Cloud-init v. 25.2-0ubuntu1~24.04.1 running 'init-local' at Mon, 02 Mar 2026 06:54:53 +0000. Up 5.34 seconds.
+2026-03-02T06:54:59.750643+00:00 ip-172-31-36-148 dhcpcd[460]: dhcpcd-10.0.6 starting
+2026-03-02T06:54:59.750661+00:00 ip-172-31-36-148 dhcpcd[463]: DUID 00:01:00:01:31:37:f0:bd:0a:c7:1a:c8:7f:75
+2026-03-02T06:54:59.750666+00:00 ip-172-31-36-148 dhcpcd[463]: ens5: IAID 1a:c8:7f:75
+2026-03-02T06:54:59.750671+00:00 ip-172-31-36-148 dhcpcd[463]: ens5: soliciting a DHCP lease
+2026-03-02T06:54:59.750675+00:00 ip-172-31-36-148 dhcpcd[463]: ens5: offered 172.31.36.148 from 172.31.32.1
+2026-03-02T06:54:59.750680+00:00 ip-172-31-36-148 dhcpcd[463]: ens5: leased 172.31.36.148 for 3600 seconds
+2026-03-02T06:54:59.750684+00:00 ip-172-31-36-148 dhcpcd[463]: ens5: adding route to 172.31.32.0/20
+2026-03-02T06:54:59.750692+00:00 ip-172-31-36-148 dhcpcd[463]: ens5: adding default route via 172.31.32.1
+2026-03-02T06:54:59.750697+00:00 ip-172-31-36-148 dhcpcd[463]: control command: dhcpcd --dumplease --ipv4only ens5
+2026-03-02T06:54:59.750702+00:00 ip-172-31-36-148 systemd-resolved[333]: System hostname changed to 'ip-172-31-36-148'.
+2026-03-02T06:54:59.750707+00:00 ip-172-31-36-148 systemd[1]: netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).
+2026-03-02T06:54:59.750727+00:00 ip-172-31-36-148 systemd[1]: message repeated 2 times: [ netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).]
+2026-03-02T06:54:59.750734+00:00 ip-172-31-36-148 systemd[1]: Reloading requested from client PID 498 ('systemctl') (unit cloud-init-local.service)...
+2026-03-02T06:54:59.750742+00:00 ip-172-31-36-148 systemd[1]: Reloading...
+2026-03-02T06:54:59.750746+00:00 ip-172-31-36-148 systemd[1]: Reloading finished in 200 ms.
+2026-03-02T06:54:59.750751+00:00 ip-172-31-36-148 systemd[1]: Finished cloud-init-local.service - Cloud-init: Local Stage (pre-network).
+2026-03-02T06:54:59.750756+00:00 ip-172-31-36-148 systemd[1]: Reached target network-pre.target - Preparation for Network.
+2026-03-02T06:54:59.750765+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-networkd.service - Network Configuration...
+2026-03-02T06:54:59.750769+00:00 ip-172-31-36-148 systemd-networkd[533]: lo: Link UP
+2026-03-02T06:54:59.750774+00:00 ip-172-31-36-148 systemd-networkd[533]: lo: Gained carrier
+2026-03-02T06:54:59.750778+00:00 ip-172-31-36-148 systemd-networkd[533]: Enumeration completed
+2026-03-02T06:54:59.750782+00:00 ip-172-31-36-148 systemd[1]: Started systemd-networkd.service - Network Configuration.
+2026-03-02T06:54:59.750787+00:00 ip-172-31-36-148 systemd-networkd[533]: ens5: Link UP
+2026-03-02T06:54:59.750792+00:00 ip-172-31-36-148 systemd-networkd[533]: ens5: Gained carrier
+2026-03-02T06:54:59.750800+00:00 ip-172-31-36-148 systemd-networkd[533]: ens5: Gained IPv6LL
+2026-03-02T06:54:59.750805+00:00 ip-172-31-36-148 systemd-networkd[533]: ens5: Link DOWN
+2026-03-02T06:54:59.750809+00:00 ip-172-31-36-148 systemd-networkd[533]: ens5: Lost carrier
+2026-03-02T06:54:59.750814+00:00 ip-172-31-36-148 systemd[1]: Reached target network.target - Network.
+2026-03-02T06:54:59.750818+00:00 ip-172-31-36-148 systemd-networkd[533]: ens5: Configuring with /run/systemd/network/10-netplan-ens5.network.
+2026-03-02T06:54:59.750824+00:00 ip-172-31-36-148 systemd-networkd[533]: ens5: Link UP
+2026-03-02T06:54:59.750832+00:00 ip-172-31-36-148 systemd-networkd[533]: ens5: Gained carrier
+2026-03-02T06:54:59.750837+00:00 ip-172-31-36-148 systemd[1]: Starting systemd-networkd-wait-online.service - Wait for Network to be Configured...
+2026-03-02T06:54:59.750842+00:00 ip-172-31-36-148 systemd-networkd[533]: ens5: DHCPv4 address 172.31.36.148/20, gateway 172.31.32.1 acquired from 172.31.32.1
+2026-03-02T06:54:59.750848+00:00 ip-172-31-36-148 systemd-networkd[533]: ens5: Gained IPv6LL
+2026-03-02T06:54:59.750853+00:00 ip-172-31-36-148 systemd[1]: Finished systemd-networkd-wait-online.service - Wait for Network to be Configured.
+2026-03-02T06:54:59.750857+00:00 ip-172-31-36-148 systemd[1]: Starting cloud-init.service - Cloud-init: Network Stage...
+2026-03-02T06:54:59.750865+00:00 ip-172-31-36-148 cloud-init[543]: Cloud-init v. 25.2-0ubuntu1~24.04.1 running 'init' at Mon, 02 Mar 2026 06:54:57 +0000. Up 9.69 seconds.
+2026-03-02T06:54:59.750871+00:00 ip-172-31-36-148 cloud-init[543]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+2026-03-02T06:54:59.750875+00:00 ip-172-31-36-148 cloud-init[543]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+2026-03-02T06:54:59.750880+00:00 ip-172-31-36-148 cloud-init[543]: ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+2026-03-02T06:54:59.741012+00:00 ip-172-31-36-148 kernel: Linux version 6.14.0-1018-aws (buildd@lcy02-amd64-107) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #18~24.04.1-Ubuntu SMP Mon Nov 24 19:46:27 UTC 2025 (Ubuntu 6.14.0-1018.18~24.04.1-aws 6.14.11)
+2026-03-02T06:54:59.754941+00:00 ip-172-31-36-148 kernel: Command line: BOOT_IMAGE=/vmlinuz-6.14.0-1018-aws root=PARTUUID=2baf9194-a5fb-4b12-adb0-45166f0feb06 ro console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 panic=-1
+2026-03-02T06:54:59.754946+00:00 ip-172-31-36-148 kernel: KERNEL supported cpus:
+2026-03-02T06:54:59.754947+00:00 ip-172-31-36-148 kernel:   Intel GenuineIntel
+2026-03-02T06:54:59.754948+00:00 ip-172-31-36-148 kernel:   AMD AuthenticAMD
+2026-03-02T06:54:59.754948+00:00 ip-172-31-36-148 kernel:   Hygon HygonGenuine
+2026-03-02T06:54:59.754949+00:00 ip-172-31-36-148 kernel:   Centaur CentaurHauls
+2026-03-02T06:54:59.754952+00:00 ip-172-31-36-148 kernel:   zhaoxin   Shanghai  
+2026-03-02T06:54:59.754953+00:00 ip-172-31-36-148 kernel: BIOS-provided physical RAM map:
+2026-03-02T06:54:59.754954+00:00 ip-172-31-36-148 kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+2026-03-02T06:54:59.754955+00:00 ip-172-31-36-148 kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000390cdfff] usable
+2026-03-02T06:54:59.754955+00:00 ip-172-31-36-148 kernel: BIOS-e820: [mem 0x00000000390ce000-0x000000003934dfff] reserved
+2026-03-02T06:54:59.754956+00:00 ip-172-31-36-148 kernel: BIOS-e820: [mem 0x000000003934e000-0x000000003935dfff] ACPI data
+2026-03-02T06:54:59.754960+00:00 ip-172-31-36-148 kernel: BIOS-e820: [mem 0x000000003935e000-0x00000000393ddfff] ACPI NVS
+2026-03-02T06:54:59.754961+00:00 ip-172-31-36-148 kernel: BIOS-e820: [mem 0x00000000393de000-0x000000003d37bfff] usable
+2026-03-02T06:54:59.754961+00:00 ip-172-31-36-148 kernel: BIOS-e820: [mem 0x000000003d37c000-0x000000003d3fffff] reserved
+2026-03-02T06:54:59.754962+00:00 ip-172-31-36-148 kernel: NX (Execute Disable) protection: active
+2026-03-02T06:54:59.754963+00:00 ip-172-31-36-148 kernel: APIC: Static calls initialized
+2026-03-02T06:54:59.754963+00:00 ip-172-31-36-148 kernel: e820: update [mem 0x3728d018-0x37295e57] usable ==> usable
+2026-03-02T06:54:59.754964+00:00 ip-172-31-36-148 kernel: extended physical RAM map:
+2026-03-02T06:54:59.754967+00:00 ip-172-31-36-148 kernel: reserve setup_data: [mem 0x0000000000000000-0x000000000009ffff] usable
+2026-03-02T06:54:59.754968+00:00 ip-172-31-36-148 kernel: reserve setup_data: [mem 0x0000000000100000-0x000000003728d017] usable
+2026-03-02T06:54:59.754969+00:00 ip-172-31-36-148 kernel: reserve setup_data: [mem 0x000000003728d018-0x0000000037295e57] usable
+2026-03-02T06:54:59.754969+00:00 ip-172-31-36-148 kernel: reserve setup_data: [mem 0x0000000037295e58-0x00000000390cdfff] usable
+2026-03-02T06:54:59.754970+00:00 ip-172-31-36-148 kernel: reserve setup_data: [mem 0x00000000390ce000-0x000000003934dfff] reserved
+2026-03-02T06:54:59.754970+00:00 ip-172-31-36-148 kernel: reserve setup_data: [mem 0x000000003934e000-0x000000003935dfff] ACPI data
+2026-03-02T06:54:59.754974+00:00 ip-172-31-36-148 kernel: reserve setup_data: [mem 0x000000003935e000-0x00000000393ddfff] ACPI NVS
+2026-03-02T06:54:59.754975+00:00 ip-172-31-36-148 kernel: reserve setup_data: [mem 0x00000000393de000-0x000000003d37bfff] usable
+2026-03-02T06:54:59.754975+00:00 ip-172-31-36-148 kernel: reserve setup_data: [mem 0x000000003d37c000-0x000000003d3fffff] reserved
+2026-03-02T06:54:59.754976+00:00 ip-172-31-36-148 kernel: efi: EFI v2.7 by EDK II
+2026-03-02T06:54:59.754977+00:00 ip-172-31-36-148 kernel: efi: SMBIOS=0x3926a000 ACPI=0x3935d000 ACPI 2.0=0x3935d014 MEMATTR=0x37a0e018 MOKvar=0x39258000 INITRD=0x372cdf18 
+2026-03-02T06:54:59.754978+00:00 ip-172-31-36-148 kernel: SMBIOS 2.7 present.
+2026-03-02T06:54:59.754981+00:00 ip-172-31-36-148 kernel: DMI: Amazon EC2 t3.micro/, BIOS 1.0 10/16/2017
+2026-03-02T06:54:59.754982+00:00 ip-172-31-36-148 kernel: DMI: Memory slots populated: 1/1
+2026-03-02T06:54:59.754982+00:00 ip-172-31-36-148 kernel: secureboot: Secure boot disabled
+2026-03-02T06:54:59.754983+00:00 ip-172-31-36-148 kernel: Hypervisor detected: KVM
+2026-03-02T06:54:59.754983+00:00 ip-172-31-36-148 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+2026-03-02T06:54:59.754984+00:00 ip-172-31-36-148 kernel: kvm-clock: using sched offset of 2541937985 cycles
+2026-03-02T06:54:59.754985+00:00 ip-172-31-36-148 kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+2026-03-02T06:54:59.754988+00:00 ip-172-31-36-148 kernel: tsc: Detected 2499.992 MHz processor
+2026-03-02T06:54:59.754989+00:00 ip-172-31-36-148 kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2026-03-02T06:54:59.754989+00:00 ip-172-31-36-148 kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2026-03-02T06:54:59.754990+00:00 ip-172-31-36-148 kernel: last_pfn = 0x3d37c max_arch_pfn = 0x400000000
+2026-03-02T06:54:59.754991+00:00 ip-172-31-36-148 kernel: MTRR map: 4 entries (2 fixed + 2 variable; max 18), built from 8 variable MTRRs
+2026-03-02T06:54:59.754991+00:00 ip-172-31-36-148 kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2026-03-02T06:54:59.754995+00:00 ip-172-31-36-148 kernel: Using GB pages for direct mapping
+2026-03-02T06:54:59.754995+00:00 ip-172-31-36-148 kernel: secureboot: Secure boot disabled
+2026-03-02T06:54:59.754996+00:00 ip-172-31-36-148 kernel: RAMDISK: [mem 0x31f6e000-0x32c16fff]
+2026-03-02T06:54:59.754997+00:00 ip-172-31-36-148 kernel: ACPI: Early table checksum verification disabled
+2026-03-02T06:54:59.754997+00:00 ip-172-31-36-148 kernel: ACPI: RSDP 0x000000003935D014 000024 (v02 AMAZON)
+2026-03-02T06:54:59.754998+00:00 ip-172-31-36-148 kernel: ACPI: XSDT 0x000000003935C0E8 00006C (v01 AMAZON AMZNFACP 00000001      01000013)
+2026-03-02T06:54:59.755001+00:00 ip-172-31-36-148 kernel: ACPI: FACP 0x0000000039355000 000114 (v01 AMAZON AMZNFACP 00000001 AMZN 00000001)
+2026-03-02T06:54:59.755002+00:00 ip-172-31-36-148 kernel: ACPI: DSDT 0x0000000039356000 00115A (v01 AMAZON AMZNDSDT 00000001 AMZN 00000001)
+2026-03-02T06:54:59.755002+00:00 ip-172-31-36-148 kernel: ACPI: FACS 0x00000000393D0000 000040
+2026-03-02T06:54:59.755003+00:00 ip-172-31-36-148 kernel: ACPI: WAET 0x000000003935B000 000028 (v01 AMAZON AMZNWAET 00000001 AMZN 00000001)
+2026-03-02T06:54:59.755004+00:00 ip-172-31-36-148 kernel: ACPI: SLIT 0x000000003935A000 00006C (v01 AMAZON AMZNSLIT 00000001 AMZN 00000001)
+2026-03-02T06:54:59.755004+00:00 ip-172-31-36-148 kernel: ACPI: APIC 0x0000000039359000 000076 (v01 AMAZON AMZNAPIC 00000001 AMZN 00000001)
+2026-03-02T06:54:59.755005+00:00 ip-172-31-36-148 kernel: ACPI: SRAT 0x0000000039358000 0000A0 (v01 AMAZON AMZNSRAT 00000001 AMZN 00000001)
+2026-03-02T06:54:59.755008+00:00 ip-172-31-36-148 kernel: ACPI: HPET 0x0000000039354000 000038 (v01 AMAZON AMZNHPET 00000001 AMZN 00000001)
+2026-03-02T06:54:59.755009+00:00 ip-172-31-36-148 kernel: ACPI: SSDT 0x0000000039353000 000759 (v01 AMAZON AMZNSSDT 00000001 AMZN 00000001)
+2026-03-02T06:54:59.755009+00:00 ip-172-31-36-148 kernel: ACPI: SSDT 0x0000000039352000 00007F (v01 AMAZON AMZNSSDT 00000001 AMZN 00000001)
+2026-03-02T06:54:59.755010+00:00 ip-172-31-36-148 kernel: ACPI: BGRT 0x0000000039351000 000038 (v01 AMAZON AMAZON   00000002      01000013)
+2026-03-02T06:54:59.755011+00:00 ip-172-31-36-148 kernel: ACPI: Reserving FACP table memory at [mem 0x39355000-0x39355113]
+2026-03-02T06:54:59.755012+00:00 ip-172-31-36-148 kernel: ACPI: Reserving DSDT table memory at [mem 0x39356000-0x39357159]
+2026-03-02T06:54:59.755015+00:00 ip-172-31-36-148 kernel: ACPI: Reserving FACS table memory at [mem 0x393d0000-0x393d003f]
+2026-03-02T06:54:59.755015+00:00 ip-172-31-36-148 kernel: ACPI: Reserving WAET table memory at [mem 0x3935b000-0x3935b027]
+2026-03-02T06:54:59.755016+00:00 ip-172-31-36-148 kernel: ACPI: Reserving SLIT table memory at [mem 0x3935a000-0x3935a06b]
+2026-03-02T06:54:59.755017+00:00 ip-172-31-36-148 kernel: ACPI: Reserving APIC table memory at [mem 0x39359000-0x39359075]
+2026-03-02T06:54:59.755017+00:00 ip-172-31-36-148 kernel: ACPI: Reserving SRAT table memory at [mem 0x39358000-0x3935809f]
+2026-03-02T06:54:59.755018+00:00 ip-172-31-36-148 kernel: ACPI: Reserving HPET table memory at [mem 0x39354000-0x39354037]
+2026-03-02T06:54:59.755019+00:00 ip-172-31-36-148 kernel: ACPI: Reserving SSDT table memory at [mem 0x39353000-0x39353758]
+2026-03-02T06:54:59.755022+00:00 ip-172-31-36-148 kernel: ACPI: Reserving SSDT table memory at [mem 0x39352000-0x3935207e]
+2026-03-02T06:54:59.755023+00:00 ip-172-31-36-148 kernel: ACPI: Reserving BGRT table memory at [mem 0x39351000-0x39351037]
+2026-03-02T06:54:59.755023+00:00 ip-172-31-36-148 kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x3fffffff]
+2026-03-02T06:54:59.755024+00:00 ip-172-31-36-148 kernel: NUMA: Initialized distance table, cnt=1
+2026-03-02T06:54:59.755025+00:00 ip-172-31-36-148 kernel: NODE_DATA(0) allocated [mem 0x3b2cb540-0x3b2f5fff]
+2026-03-02T06:54:59.755025+00:00 ip-172-31-36-148 kernel: Zone ranges:
+2026-03-02T06:54:59.755029+00:00 ip-172-31-36-148 kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
