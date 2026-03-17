@@ -24,4 +24,3 @@ id firstname lastname email profession
 122 Belinda Sidonius Belinda.Sidonius@yopmail.com doctor
 123 Tomasina Alfons Tomasina.Alfons@yopmail.com firefighter
 124 Rayna Gunn Rayna.Gunn@yopmail.com developer
-

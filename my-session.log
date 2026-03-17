@@ -1,0 +1,271 @@
+Script started on 2026-03-16 11:26:43+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="148" LINES="35"]
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ ls
+[?2004lcsv.txt  data.txt  my-session.log  salaried.txt  tes.sh
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ cat my-sse[K[Kession.log
+[?2004l[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ bash tes.sh
+[?2004lTotal average salary is: 68262
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ bash tes.shcat my-session.log
+[?2004l[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ cat my-session.log[7Pbash tes.shcat my-session.log[7Pbash tes.sh | tee
+[?2004lTotal average salary is: 68262
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ bash tes.sh | teecat my-session.log
+[?2004l[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ cat[K[K[Ks[Kls
+[?2004lcsv.txt  data.txt  my-session.log  salaried.txt  tes.sh
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ cat saa[Klareid[K[K[Kied.txt
+[?2004lid,firstname,lastname,email,profession,Salary
+100,Ninnetta,Edvard,Ninnetta.Edvard@yopmail.com,worker,64116
+101,Cecile,Reneta,Cecile.Reneta@yopmail.com,doctor,85157
+102,Meg,Kristi,Meg.Kristi@yopmail.com,developer,77550
+103,Melina,Travax,Melina.Travax@yopmail.com,doctor,60875
+104,Elmira,Alice,Elmira.Alice@yopmail.com,police officer,83074
+105,Gratia,Sisile,Gratia.Sisile@yopmail.com,developer,69731
+106,Larine,Faust,Larine.Faust@yopmail.com,developer,85882
+107,Jenda,Alva,Jenda.Alva@yopmail.com,doctor,55515
+108,Sheelagh,Schlosser,Sheelagh.Schlosser@yopmail.com,developer,97745
+109,Ebonee,Goode,Ebonee.Goode@yopmail.com,doctor,55185
+110,Ardeen,Kesley,Ardeen.Kesley@yopmail.com,developer,53011
+111,Maryellen,Gerge,Maryellen.Gerge@yopmail.com,police officer,71674
+112,Ketti,Nance,Ketti.Nance@yopmail.com,firefighter,90863
+113,Shaine,Cadmar,Shaine.Cadmar@yopmail.com,worker,52115
+114,Bobbi,Iaverne,Bobbi.Iaverne@yopmail.com,worker,46193
+115,Jere,Faust,Jere.Faust@yopmail.com,police officer,60849
+116,Maisey,Adamsen,Maisey.Adamsen@yopmail.com,doctor,97684
+117,Gui,Katrine,Gui.Katrine@yopmail.com,doctor,68975
+118,Kassey,Nikaniki,Kassey.Nikaniki@yopmail.com,worker,84072
+119,Oralee,Tristram,Oralee.Tristram@yopmail.com,firefighter,73237
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ vim salaried.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"salaried.txt" 21L, 1231B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hid,firstname,lastname,email,profession,Salary
+100,Ninnetta,Edvard,Ninnetta.Edvard@yopmail.com,worker,64116[2;61H[K[3;1H101,Cecile,Reneta,Cecile.Reneta@yopmail.com,doctor,85157[3;57H[K[4;1H102,Meg,Kristi,Meg.Kristi@yopmail.com,developer,77550
+103,Melina,Travax,Melina.Travax@yopmail.com,doctor,60875
+104,Elmira,Alice,Elmira.Alice@yopmail.com,police officer,83074
+105,Gratia,Sisile,Gratia.Sisile@yopmail.com,developer,69731
+106,Larine,Faust,Larine.Faust@yopmail.com,developer,85882
+107,Jenda,Alva,Jenda.Alva@yopmail.com,doctor,55515
+108,Sheelagh,Schlosser,Sheelagh.Schlosser@yopmail.com,developer,97745
+109,Ebonee,Goode,Ebonee.Goode@yopmail.com,doctor,55185
+110,Ardeen,Kesley,Ardeen.Kesley@yopmail.com,developer,53011
+111,Maryellen,Gerge,Maryellen.Gerge@yopmail.com,police officer,71674
+112,Ketti,Nance,Ketti.Nance@yopmail.com,firefighter,90863
+113,Shaine,Cadmar,Shaine.Cadmar@yopmail.com,worker,52115
+114,Bobbi,Iaverne,Bobbi.Iaverne@yopmail.com,worker,46193
+115,Jere,Faust,Jere.Faust@yopmail.com,police officer,60849
+116,Maisey,Adamsen,Maisey.Adamsen@yopmail.com,doctor,97684
+117,Gui,Katrine,Gui.Katrine@yopmail.com,doctor,68975
+118,Kassey,Nikaniki,Kassey.Nikaniki@yopmail.com,worker,84072
+119,Oralee,Tristram,Oralee.Tristram@yopmail.com,firefighter,73237
+[94m~                                                                                                                                                   [23;1H~                                                                                                                                                   [24;1H~                                                                                                                                                   [25;1H~                                                                                                                                                   [26;1H~                                                                                                                                                   [27;1H~                                                                                                                                                   [28;1H~                                                                                                                                                   [29;1H~                                                                                                                                                   [30;1H~                                                                                                                                                   [31;1H~                                                                                                                                                   [32;1H~                                                                                                                                                   [33;1H~                                                                                                                                                   [34;1H~                                                                                                                                                   [m[35;131H21,65[9CAll[21;65H[?25h[?4m[?12$p[?25l[35;121H/[21;65H[35;122H0[21;65H[35;123Hc[21;65H[35;124H0[21;65H[35;125Hc[21;65H[35;126H/[21;65H[35;127H0[21;65H[35;128Hc[21;65H[35;129H0[21;65H[35;130Hc[21;65H[35;121H          [21;65H[27m[23m[29m[m[H[2J[1;1Hid,firstname,lastname,email,profession,Salary
+100,Ninnetta,Edvard,Ninnetta.Edvard@yopmail.com,worker,64116
+101,Cecile,Reneta,Cecile.Reneta@yopmail.com,doctor,85157
+102,Meg,Kristi,Meg.Kristi@yopmail.com,developer,77550
+103,Melina,Travax,Melina.Travax@yopmail.com,doctor,60875
+104,Elmira,Alice,Elmira.Alice@yopmail.com,police officer,83074
+105,Gratia,Sisile,Gratia.Sisile@yopmail.com,developer,69731
+106,Larine,Faust,Larine.Faust@yopmail.com,developer,85882
+107,Jenda,Alva,Jenda.Alva@yopmail.com,doctor,55515
+108,Sheelagh,Schlosser,Sheelagh.Schlosser@yopmail.com,developer,97745
+109,Ebonee,Goode,Ebonee.Goode@yopmail.com,doctor,55185
+110,Ardeen,Kesley,Ardeen.Kesley@yopmail.com,developer,53011
+111,Maryellen,Gerge,Maryellen.Gerge@yopmail.com,police officer,71674
+112,Ketti,Nance,Ketti.Nance@yopmail.com,firefighter,90863
+113,Shaine,Cadmar,Shaine.Cadmar@yopmail.com,worker,52115
+114,Bobbi,Iaverne,Bobbi.Iaverne@yopmail.com,worker,46193
+115,Jere,Faust,Jere.Faust@yopmail.com,police officer,60849
+116,Maisey,Adamsen,Maisey.Adamsen@yopmail.com,doctor,97684
+117,Gui,Katrine,Gui.Katrine@yopmail.com,doctor,68975
+118,Kassey,Nikaniki,Kassey.Nikaniki@yopmail.com,worker,84072
+119,Oralee,Tristram,Oralee.Tristram@yopmail.com,firefighter,73237
+[94m~                                                                                                                                                   [23;1H~                                                                                                                                                   [24;1H~                                                                                                                                                   [25;1H~                                                                                                                                                   [26;1H~                                                                                                                                                   [27;1H~                                                                                                                                                   [28;1H~                                                                                                                                                   [29;1H~                                                                                                                                                   [30;1H~                                                                                                                                                   [31;1H~                                                                                                                                                   [32;1H~                                                                                                                                                   [33;1H~                                                                                                                                                   [34;1H~                                                                                                                                                   [m[35;131H21,65[9CAll"salaried.txt" 21L, 1231B[21;65H[?25h[?25l[35;121H~@k[21;65H[35;121H   [21;65H[35;1H[1m-- INSERT --[m[35;13H[K[35;131H21,65[9CAll[21;65H[?25h[?25l[35;135H6[21;66H[?25h[?25l[22;1H[K[35;132H2,1 [22;1H[?25h[?25l[23;1H[K[35;132H3[23;1H[?25h[?25l[24;1H[K[35;132H4[24;1H[?25h[35;1H[K[24;1H[?25l[35;121H^[[24;1H[35;121H  [24;1H[35;131H24,0-1[8CAll[24;1H[?25h[?25l[35;121H:[24;1H[35;121H[K[35;1H:[?25hwq[?25l[?2004l[>4;m"salaried.txt" 24L, 1234B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ vim salaried.txtcat[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lid,firstname,lastname,email,profession,Salary
+100,Ninnetta,Edvard,Ninnetta.Edvard@yopmail.com,worker,64116
+101,Cecile,Reneta,Cecile.Reneta@yopmail.com,doctor,85157
+102,Meg,Kristi,Meg.Kristi@yopmail.com,developer,77550
+103,Melina,Travax,Melina.Travax@yopmail.com,doctor,60875
+104,Elmira,Alice,Elmira.Alice@yopmail.com,police officer,83074
+105,Gratia,Sisile,Gratia.Sisile@yopmail.com,developer,69731
+106,Larine,Faust,Larine.Faust@yopmail.com,developer,85882
+107,Jenda,Alva,Jenda.Alva@yopmail.com,doctor,55515
+108,Sheelagh,Schlosser,Sheelagh.Schlosser@yopmail.com,developer,97745
+109,Ebonee,Goode,Ebonee.Goode@yopmail.com,doctor,55185
+110,Ardeen,Kesley,Ardeen.Kesley@yopmail.com,developer,53011
+111,Maryellen,Gerge,Maryellen.Gerge@yopmail.com,police officer,71674
+112,Ketti,Nance,Ketti.Nance@yopmail.com,firefighter,90863
+113,Shaine,Cadmar,Shaine.Cadmar@yopmail.com,worker,52115
+114,Bobbi,Iaverne,Bobbi.Iaverne@yopmail.com,worker,46193
+115,Jere,Faust,Jere.Faust@yopmail.com,police officer,60849
+116,Maisey,Adamsen,Maisey.Adamsen@yopmail.com,doctor,97684
+117,Gui,Katrine,Gui.Katrine@yopmail.com,doctor,68975
+118,Kassey,Nikaniki,Kassey.Nikaniki@yopmail.com,worker,84072
+119,Oralee,Tristram,Oralee.Tristram@yopmail.com,firefighter,73237
+
+
+
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk [K -F"","[C  ''[C sa;lar[K[K[K[K[Kalaried.txt[C[1@{[1@}[1@ [2@EN[1@d[1P[1@D[1@{[1@}[1@c[1@p[1@u[1P[1@o[1@u[1P[1P[1P[1@o[1@u[1@j[1@t[1P[1P[1@n[1@t[1@ [1P[1@+[1@+[C[C[C[C[C[C[1@p[1@r[1@i[1@n[1@t[1@ [1@"[1@"[1@T[1@o[1@t[1@a[1@l[1@ [1@N[1@u[1@m[1@b[1@e[1@r[1P[1P[1P[1P[1P[1P[1P[1@ [1@n[1@o[1@'[1@s[1@ [1@o[1@f[1@ [1@e[1@m[1@p[1@l[1@i[1P[1@o[1@y[1@e[1@e[1@:[1@ [C[1@ [1@c[1@o[1@u[1@n[1@t
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk -F","  '{count++} END{print "Total no's of employee: " count}' salaried.txt
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk -F","  '{count++} END{print "Total no's of employee: " count}' salaried.txt
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk -F","  '{count++} END{print "Total no's of employee: " count}' salaried.txt[C[1P[1P[1P[1P[1P[1P[1P[1P[1@ [K]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk '{count++} END{print "Total no's of employee: " count}' salaried.txt[A[C[C[C[C
+[K[A[K]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk '{count++} END{print "Total no's of employee: " count}' salaried.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K data.txt
+[?2004l[?2004h> awk '{count++} END{print "Total no's of employee: " count}' data.txt[C
+[?2004lawk: cmd. line:1: {count++} END{print "Total nos
+awk: cmd. line:1:                     ^ unterminated string
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk '{count++} END{print "Total no's of employee: " count}' data.txt
+awk '{count++} END{print "Total no's of employee: " count}' data.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-F","  '{count++} END{print "Total no's of employee: " count}' salaried.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P
+[?2004lTotal no of employee: 24
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ cat salaried.txt
+[?2004lid,firstname,lastname,email,profession,Salary
+100,Ninnetta,Edvard,Ninnetta.Edvard@yopmail.com,worker,64116
+101,Cecile,Reneta,Cecile.Reneta@yopmail.com,doctor,85157
+102,Meg,Kristi,Meg.Kristi@yopmail.com,developer,77550
+103,Melina,Travax,Melina.Travax@yopmail.com,doctor,60875
+104,Elmira,Alice,Elmira.Alice@yopmail.com,police officer,83074
+105,Gratia,Sisile,Gratia.Sisile@yopmail.com,developer,69731
+106,Larine,Faust,Larine.Faust@yopmail.com,developer,85882
+107,Jenda,Alva,Jenda.Alva@yopmail.com,doctor,55515
+108,Sheelagh,Schlosser,Sheelagh.Schlosser@yopmail.com,developer,97745
+109,Ebonee,Goode,Ebonee.Goode@yopmail.com,doctor,55185
+110,Ardeen,Kesley,Ardeen.Kesley@yopmail.com,developer,53011
+111,Maryellen,Gerge,Maryellen.Gerge@yopmail.com,police officer,71674
+112,Ketti,Nance,Ketti.Nance@yopmail.com,firefighter,90863
+113,Shaine,Cadmar,Shaine.Cadmar@yopmail.com,worker,52115
+114,Bobbi,Iaverne,Bobbi.Iaverne@yopmail.com,worker,46193
+115,Jere,Faust,Jere.Faust@yopmail.com,police officer,60849
+116,Maisey,Adamsen,Maisey.Adamsen@yopmail.com,doctor,97684
+117,Gui,Katrine,Gui.Katrine@yopmail.com,doctor,68975
+118,Kassey,Nikaniki,Kassey.Nikaniki@yopmail.com,worker,84072
+119,Oralee,Tristram,Oralee.Tristram@yopmail.com,firefighter,73237
+
+
+
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ cat salaried.txt[61@awk -F","  '{count++} END{print "Total no of employee: " count}'[C[C[C[C[C[C[C[C[C[C[C[C[Ccle[K[K[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat salaried.txt[K[Kclear
+[?2004l[H[2J[3J[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clearat salaried.txt[61@awk -F","  '{count++} END{print "Total no of employee: " count}'[C[C[C[C[C[C[C[C[C[C[C[C[C[1@N[1@R[1@>[1@0[1P[1@1[1@ 
+[?2004lTotal no of employee: 23
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk -F","  'NR>1 {count++} END{print "Total no of employee: " count}' salaried.txt[1@i[1@f[1@ [1P[1@([1@)[1@N[1@F[1@>[1@0
+[?2004lTotal no of employee: 20
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk -F","  'NR>1 {if(NF>0)count++} END{print "Total no of employee: " count}' salaried.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kat salaried.txtlear[Kawk -F","  'NR>1 {count++} END{print "Total no of employee: " count}' salaried.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kat salaried.txt
+[?2004lid,firstname,lastname,email,profession,Salary
+100,Ninnetta,Edvard,Ninnetta.Edvard@yopmail.com,worker,64116
+101,Cecile,Reneta,Cecile.Reneta@yopmail.com,doctor,85157
+102,Meg,Kristi,Meg.Kristi@yopmail.com,developer,77550
+103,Melina,Travax,Melina.Travax@yopmail.com,doctor,60875
+104,Elmira,Alice,Elmira.Alice@yopmail.com,police officer,83074
+105,Gratia,Sisile,Gratia.Sisile@yopmail.com,developer,69731
+106,Larine,Faust,Larine.Faust@yopmail.com,developer,85882
+107,Jenda,Alva,Jenda.Alva@yopmail.com,doctor,55515
+108,Sheelagh,Schlosser,Sheelagh.Schlosser@yopmail.com,developer,97745
+109,Ebonee,Goode,Ebonee.Goode@yopmail.com,doctor,55185
+110,Ardeen,Kesley,Ardeen.Kesley@yopmail.com,developer,53011
+111,Maryellen,Gerge,Maryellen.Gerge@yopmail.com,police officer,71674
+112,Ketti,Nance,Ketti.Nance@yopmail.com,firefighter,90863
+113,Shaine,Cadmar,Shaine.Cadmar@yopmail.com,worker,52115
+114,Bobbi,Iaverne,Bobbi.Iaverne@yopmail.com,worker,46193
+115,Jere,Faust,Jere.Faust@yopmail.com,police officer,60849
+116,Maisey,Adamsen,Maisey.Adamsen@yopmail.com,doctor,97684
+117,Gui,Katrine,Gui.Katrine@yopmail.com,doctor,68975
+118,Kassey,Nikaniki,Kassey.Nikaniki@yopmail.com,worker,84072
+119,Oralee,Tristram,Oralee.Tristram@yopmail.com,firefighter,73237
+
+
+
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clear[K[K[K[K[Kclear
+[?2004l[H[2J[3J[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clearat salaried.txt[74@awk -F","  'NR>1 {if(NF>0)count++} END{print "Total no of employee: " count}'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@:[1@ [1P[1P[1@;[1@ [1@s[1@u[1@m[1@+[1@=[1@$[1@N[1@F[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@A[1@v[1@e[1@n[1@r[1@a[1@g[1@e[1@s[1P[1P[1P[1P[1P[1P[1@r[1@a[1@g[1@e[1@ [1@S[2@al[1P[1P[1P[1@s[1@a[1@l[1@a[1@r[1@y[1@:[1@ [C[C[C[C[C[1@s[1@u[1@m[1@/
+[?2004lAverage salary: 71675.1
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk -F""[K[K'','[C '' salarue[Kied[K[K[K[Kied.txt[1@{[1@}[1@[[1@p[1@r[1@i[1@n[1@t[1P[1P[1P[1P[1P[1P[1@p[1@t[1@i[1@n[1P[1P[1P[1P[1@p[1@r[1@i[1@n[1@t[1@ [1@N[1@R
+[?2004l1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk -F',' '{print NR}' salaried.txt[1@$
+[?2004lid
+Ninnetta
+Reneta
+Meg.Kristi@yopmail.com
+doctor
+83074
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clearawk -F',' '{print $NR}' salaried.txt[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1@{[C[1@{[1@}[1@ [1@E[1@N[1@D[C[1@p[1@r[1@i[1@n[1@t[1@ [1@n[1@r
+[?2004l
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ awk -F',' '{} END{print nr}' salaried.txt[1P[1P[1@N[1@R
+[?2004l24
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ ls
+[?2004lcsv.txt  data.txt  my-session.log  salaried.txt  tes.sh
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ cgmod[K[K[K[K[Kcm[Khmod
+[?2004lchmod: missing operand
+Try 'chmod --help' for more information.
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ chmod --help
+[?2004lUsage: chmod [OPTION]... MODE[,MODE]... FILE...
+  or:  chmod [OPTION]... OCTAL-MODE FILE...
+  or:  chmod [OPTION]... --reference=RFILE FILE...
+Change the mode of each FILE to MODE.
+With --reference, change the mode of each FILE to that of RFILE.
+
+  -c, --changes          like verbose but report only when a change is made
+  -f, --silent, --quiet  suppress most error messages
+  -v, --verbose          output a diagnostic for every file processed
+      --no-preserve-root  do not treat '/' specially (the default)
+      --preserve-root    fail to operate recursively on '/'
+      --reference=RFILE  use RFILE's mode instead of specifying MODE values.
+                         RFILE is always dereferenced if a symbolic link.
+  -R, --recursive        change files and directories recursively
+      --help        display this help and exit
+      --version     output version information and exit
+
+Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/chmod>
+or available locally via: info '(coreutils) chmod invocation'
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ ls
+[?2004lcsv.txt  data.txt  my-session.log  salaried.txt  tes.sh
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clear[K[K[K[K[Kbash tes.sh
+[?2004lTotal average salary is: 59729.3
+[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;ubuntu@ip-172-31-36-148: ~/awk-practice[01;32mubuntu@ip-172-31-36-148[00m:[01;34m~/awk-practice[00m$ vim tes.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"tes.sh" 1L, 140B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hawk [35m-F[m[38;5;130m"[m[31m,[m[38;5;130m"[m [38;5;130m'[m[31mBEGIN{avearge=0; sum=0} {sum=sum+$NF; average=NR; salary=sum/average} END{print "Total average salary is: "salary}[m[38;5;130m'[m salaried.txt
+[94m~                                                                                                                                                   [3;1H~                                                                                                                                                   [4;1H~                                                                                                                                                   [5;1H~                                                                                                                                                   [6;1H~                                                                                                                                                   [7;1H~                                                                                                                                                   [8;1H~                                                                                                                                                   [9;1H~                                                                                                                                                   [10;1H~                                                                                                                                                   [11;1H~                                                                                                                                                   [12;1H~                                                                                                                                                   [13;1H~                                                                                                                                                   [14;1H~                                                                                                                                                   [15;1H~                                                                                                                                                   [16;1H~                                                                                                                                                   [17;1H~                                                                                                                                                   [18;1H~                                                                                                                                                   [19;1H~                                                                                                                                                   [20;1H~                                                                                                                                                   [21;1H~                                                                                                                                                   [22;1H~                                                                                                                                                   [23;1H~                                                                                                                                                   [24;1H~                                                                                                                                                   [25;1H~                                                                                                                                                   [26;1H~                                                                                                                                                   [27;1H~                                                                                                                                                   [28;1H~                                                                                                                                                   [29;1H~                                                                                                                                                   [30;1H~                                                                                                                                                   [31;1H~                                                                                                                                                   [32;1H~                                                                                                                                                   [33;1H~                                                                                                                                                   [34;1H~                                                                                                                                                   [m[35;131H1,1[11CAll[1;1H[?25h[?4m[?12$p[?25l[35;121H/[1;1H[35;122H0[1;1H[35;123Hc[1;1H[35;124H0[1;1H[35;125Hc[1;1H[35;126H/[1;1H[35;127H0[1;1H[35;128Hc[1;1H[35;129H0[1;1H[35;130Hc[1;1H[35;121H          [1;1H[27m[23m[29m[m[H[2J[1;1Hawk [38;5;224m-F[m[93m"[m[95m,[m[93m"[m [93m'[m[95mBEGIN{avearge=0; sum=0} {sum=sum+$NF; average=NR; salary=sum/average} END{print "Total average salary is: "salary}[m[93m'[m salaried.txt
+[94m~                                                                                                                                                   [3;1H~                                                                                                                                                   [4;1H~                                                                                                                                                   [5;1H~                                                                                                                                                   [6;1H~                                                                                                                                                   [7;1H~                                                                                                                                                   [8;1H~                                                                                                                                                   [9;1H~                                                                                                                                                   [10;1H~                                                                                                                                                   [11;1H~                                                                                                                                                   [12;1H~                                                                                                                                                   [13;1H~                                                                                                                                                   [14;1H~                                                                                                                                                   [15;1H~                                                                                                                                                   [16;1H~                                                                                                                                                   [17;1H~                                                                                                                                                   [18;1H~                                                                                                                                                   [19;1H~                                                                                                                                                   [20;1H~                                                                                                                                                   [21;1H~                                                                                                                                                   [22;1H~                                                                                                                                                   [23;1H~                                                                                                                                                   [24;1H~                                                                                                                                                   [25;1H~                                                                                                                                                   [26;1H~                                                                                                                                                   [27;1H~                                                                                                                                                   [28;1H~                                                                                                                                                   [29;1H~                                                                                                                                                   [30;1H~                                                                                                                                                   [31;1H~                                                                                                                                                   [32;1H~                                                                                                                                                   [33;1H~                                                                                                                                                   [34;1H~                                                                                                                                                   [m[35;131H1,1[11CAll"tes.sh" 1L, 140B[1;1H[?25h[?25l[35;121H~@k[1;1H[35;121H   [1;2H[35;133H2[1;2H[?25h[?25l[35;121H~@k[1;2H[35;121H   [1;3H[35;133H3[1;3H[?25h[?25l[35;121H~@k[1;3H[35;121H   [1;4H[35;133H4[1;4H[?25h[?25l[35;133H5[1;5H[?25h[?25l[35;121H~@k[1;5H[35;121H   [1;6H[35;133H6[1;6H[?25h[?25l[35;121H~@k[1;6H[35;121H   [1;7H[35;133H7[1;7H[?25h[?25l[35;121H~@k[1;7H[35;121H   [1;8H[35;133H8[1;8H[?25h[?25l[35;121H~@k[1;8H[35;121H   [1;9H[35;133H9[1;9H[?25h[?25l[35;121H~@k[1;9H[35;121H   [1;10H[35;133H10[1;10H[?25h[?25l[35;134H1[1;11H[?25h[?25l[35;121H~@k[1;11H[35;121H   [1;12H[35;134H2[1;12H[?25h[?25l[35;121H~@k[1;12H[35;121H   [1;13H[35;134H3[1;13H[?25h[?25l[35;121H~@k[1;13H[35;121H   [1;14H[35;134H4[1;14H[?25h[?25l[35;121H~@k[1;14H[35;121H   [1;15H[35;134H5[1;15H[?25h[?25l[35;121H~@k[1;15H[35;121H   [1;16H[35;134H6[1;16H[?25h[?25l[35;121H~@k[1;16H[35;121H   [1;17H[95m[46m{[16C}[m[35;134H7[1;17H[?25h[?25l[95m{[16C}[m[35;134H8[1;18H[?25h[?25l[35;121H~@k[1;18H[35;121H   [1;19H[35;134H9[1;19H[?25h[?25l[35;121H~@k[1;19H[35;121H   [1;20H[35;133H20[1;20H[?25h[?25l[35;121H~@k[1;20H[35;121H   [1;21H[35;134H1[1;21H[?25h[?25l[35;121H~@k[1;21H[35;121H   [1;22H[35;134H2[1;22H[?25h[?25l[35;134H3[1;23H[?25h[?25l[35;121H~@k[1;23H[35;121H   [1;24H[35;134H4[1;24H[?25h[?25l[35;121H~@k[1;24H[35;121H   [1;25H[35;134H5[1;25H[?25h[?25l[35;134H6[1;26H[?25h[?25l[35;121H~@k[1;26H[35;121H   [1;27H[35;134H7[1;27H[?25h[?25l[35;134H8[1;28H[?25h[?25l[35;121H~@k[1;28H[35;121H   [1;29H[35;134H9[1;29H[?25h[?25l[35;121H~@k[1;29H[35;121H   [1;30H[35;133H30[1;30H[?25h[?25l[35;121H~@k[1;30H[35;121H   [1;31H[35;134H1[1;31H[?25h[?25l[35;134H2[1;32H[?25h[?25l[35;121H~@k[1;32H[35;121H   [1;33H[35;134H3[1;33H[?25h[?25l[35;121H~@k[1;33H[35;121H   [1;34H[1;17H[95m[46m{[16C}[m[35;134H4[1;34H[?25h[?25l[35;121H~@k[1;34H[35;121H   [1;35H[1;17H[95m{[16C}[m[35;134H5[1;35H[?25h[?25l[35;121H~@k[1;35H[35;121H   [1;36H[95m[46m{[43C}[m[35;134H6[1;36H[?25h[?25l[35;121H~@k[1;36H[35;121H   [1;37H[95m{[43C}[m[35;134H7[1;37H[?25h[?25l[35;121H~@k[1;37H[35;121H   [1;38H[35;134H8[1;38H[?25h[?25l[35;121H~@k[1;38H[35;121H   [1;39H[35;134H9[1;39H[?25h[?25l[35;121H~@k[1;39H[35;121H   [1;40H[35;133H40[1;40H[?25h[?25l[35;121H~@k[1;40H[35;121H   [1;41H[35;134H1[1;41H[?25h[?25l[35;134H2[1;42H[?25h[?25l[35;121H~@k[1;42H[35;121H   [1;43H[35;134H3[1;43H[?25h[?25l[35;121H~@k[1;43H[35;121H   [1;44H[35;134H4[1;44H[?25h[?25l[35;134H5[1;45H[?25h[?25l[35;121H~@k[1;45H[35;121H   [1;46H[35;134H6[1;46H[?25h[?25l[35;121H~@k[1;46H[35;121H   [1;47H[35;134H7[1;47H[?25h[?25l[35;121H~@k[1;47H[35;121H   [1;48H[35;134H8[1;48H[?25h[?25l[35;121H~@k[1;48H[35;121H   [1;49H[35;134H9[1;49H[?25h[?25l[35;121H~@k[1;49H[35;121H   [1;50H[35;133H50[1;50H[?25h[?25l[35;121H~@k[1;50H[35;121H   [1;51H[35;134H1[1;51H[?25h[?25l[35;121H~@k[1;51H[35;121H   [1;52H[35;134H2[1;52H[?25h[?25l[35;121H~@k[1;52H[35;121H   [1;53H[35;134H3[1;53H[?25h[?25l[35;121H~@k[1;53H[35;121H   [1;54H[35;134H4[1;54H[?25h[?25l[35;121H~@k[1;54H[35;121H   [1;55H[35;134H5[1;55H[?25h[?25l[35;121H~@k[1;55H[35;121H   [1;56H[35;134H6[1;56H[?25h[?25l[35;121H~@k[1;56H[35;121H   [1;57H[35;134H7[1;57H[?25h[?25l[35;121H~@k[1;57H[35;121H   [1;58H[35;134H8[1;58H[?25h[?25l[35;121H~@k[1;58H[35;121H   [1;59H[35;134H9[1;59H[?25h[?25l[35;133H60[1;60H[?25h[?25l[35;121H~@k[1;60H[35;121H   [1;61H[35;134H1[1;61H[?25h[?25l[35;121H~@k[1;61H[35;121H   [1;62H[35;134H2[1;62H[?25h[?25l[35;121H~@k[1;62H[35;121H   [1;63H[35;134H3[1;63H[?25h[?25l[35;121H~@k[1;63H[35;121H   [1;64H[35;134H4[1;64H[?25h[?25l[35;121H~@k[1;64H[35;121H   [1;65H[35;134H5[1;65H[?25h[?25l[35;121H~@k[1;65H[35;121H   [1;66H[35;134H6[1;66H[?25h[?25l[35;121H~@k[1;66H[35;121H   [1;67H[35;134H7[1;67H[?25h[?25l[35;121H~@k[1;67H[35;121H   [1;68H[35;134H8[1;68H[?25h[?25l[35;121H~@k[1;68H[35;121H   [1;69H[35;134H9[1;69H[?25h[?25l[35;121H~@k[1;69H[35;121H   [1;70H[35;133H70[1;70H[?25h[?25l[35;121H~@k[1;70H[35;121H   [1;71H[35;134H1[1;71H[?25h[?25l[35;121H~@k[1;71H[35;121H   [1;72H[35;134H2[1;72H[?25h[?25l[35;134H3[1;73H[?25h[?25l[35;121H~@k[1;73H[35;121H   [1;74H[35;134H4[1;74H[?25h[?25l[35;121H~@k[1;74H[35;121H   [1;75H[35;134H5[1;75H[?25h[?25l[35;121H~@k[1;75H[35;121H   [1;76H[35;134H6[1;76H[?25h[?25l[35;121H~@k[1;76H[35;121H   [1;77H[35;134H7[1;77H[?25h[?25l[35;121H~@k[1;77H[35;121H   [1;78H[35;134H8[1;78H[?25h[?25l[35;121H~@k[1;78H[35;121H   [1;79H[35;134H9[1;79H[?25h[?25l[35;121H~@k[1;79H[35;121H   [1;80H[1;36H[95m[46m{[43C}[m[35;133H80[1;80H[?25h[?25l[35;121H~@k[1;80H[35;121H   [1;81H[1;36H[95m{[43C}[m[35;134H1[1;81H[?25h[?25l[35;121H~@k[1;81H[35;121H   [1;80H[1;36H[95m[46m{[43C}[m[35;134H0[1;80H[?25h[?25l[35;121H~@k[1;80H[35;121H   [1;81H[1;36H[95m{[43C}[m[35;134H1[1;81H[?25h[?25l[35;121H~@k[1;81H[35;121H   [1;80H[1;36H[95m[46m{[43C}[m[35;134H0[1;80H[?25h[?25l[35;121H~@k[1;80H[35;121H   [1;79H[1;36H[95m{[43C}[m[35;133H79[1;79H[?25h[?25l[35;121H~@k[1;79H[35;121H   [1;78H[35;134H8[1;78H[?25h[?25l[35;121H~@k[1;78H[35;121H   [1;77H[35;134H7[1;77H[?25h[?25l[35;121H~@k[1;77H[35;121H   [1;76H[35;134H6[1;76H[?25h[?25l[35;121H~@k[1;76H[35;121H   [1;75H[35;134H5[1;75H[?25h[?25l[35;121H~@k[1;75H[35;121H   [1;74H[35;134H4[1;74H[?25h[?25l[35;121H~@k[1;74H[35;121H   [1;73H[35;134H3[1;73H[?25h[?25l[35;134H2[1;72H[?25h[?25l[35;121H~@k[1;72H[35;121H   [1;71H[35;134H1[1;71H[?25h[?25l[35;121H~@k[1;71H[35;121H   [1;70H[35;134H0[1;70H[?25h[?25l[35;121H~@k[1;70H[35;121H   [1;69H[35;133H69[1;69H[?25h[?25l[35;121H~@k[1;69H[35;121H   [1;68H[35;134H8[1;68H[?25h[?25l[35;121H~@k[1;68H[35;121H   [1;67H[35;134H7[1;67H[?25h[?25l[35;121H~@k[1;67H[35;121H   [1;66H[35;134H6[1;66H[?25h[?25l[35;121H~@k[1;66H[35;121H   [1;65H[35;134H5[1;65H[?25h[?25l[35;121H~@k[1;65H[35;121H   [1;64H[35;134H4[1;64H[?25h[?25l[35;121H~@k[1;64H[35;121H   [1;63H[35;134H3[1;63H[?25h[?25l[35;121H~@k[1;63H[35;121H   [1;62H[35;134H2[1;62H[?25h[?25l[35;121H~@k[1;62H[35;121H   [1;61H[35;134H1[1;61H[?25h[?25l[35;121H~@k[1;61H[35;121H   [1;60H[35;134H0[1;60H[?25h[?25l[35;121H~@k[1;60H[35;121H   [1;59H[35;133H59[1;59H[?25h[?25l[35;121H~@k[1;59H[35;121H   [1;58H[35;134H8[1;58H[?25h[?25l[35;121H~@k[1;58H[35;121H   [1;57H[35;134H7[1;57H[?25h[?25l[35;121H~@k[1;57H[35;121H   [1;56H[35;134H6[1;56H[?25h[?25l[35;121H~@k[1;56H[35;121H   [1;55H[35;134H5[1;55H[?25h[?25l[35;121H~@k[1;55H[35;121H   [1;54H[35;134H4[1;54H[?25h[?25l[35;121H~@k[1;54H[35;121H   [1;53H[35;134H3[1;53H[?25h[?25l[35;121H~@k[1;53H[35;121H   [1;52H[35;134H2[1;52H[?25h[?25l[35;121H~@k[1;52H[35;121H   [1;51H[35;134H1[1;51H[?25h[?25l[35;121H~@k[1;51H[35;121H   [1;50H[35;134H0[1;50H[?25h[?25l[35;121H~@k[1;50H[35;121H   [1;49H[35;133H49[1;49H[?25h[?25l[35;121H~@k[1;49H[35;121H   [1;48H[35;134H8[1;48H[?25h[?25l[35;121H~@k[1;48H[35;121H   [1;47H[35;134H7[1;47H[?25h[?25l[35;121H~@k[1;47H[35;121H   [1;46H[35;134H6[1;46H[?25h[?25l[35;121H~@k[1;46H[35;121H   [1;45H[35;134H5[1;45H[?25h[?25l[35;121H~@k[1;45H[35;121H   [1;44H[35;134H4[1;44H[?25h[?25l[35;121H~@k[1;44H[35;121H   [1;43H[35;134H3[1;43H[?25h[?25l[35;121H~@k[1;43H[35;121H   [1;42H[35;134H2[1;42H[?25h[?25l[35;121H~@k[1;42H[35;121H   [1;42H[35;1H[1m-- INSERT --[m[35;14H[K[35;131H1,42[10CAll[1;42H[?25h[?25l[35;134H3[1;43H[?25h[?25l[35;134H5[1;45H[?25h[?25l[35;134H6[1;46H[?25h[?25l[35;134H8[1;48H[?25h[?25l[35;133H50[1;50H[?25h[?25l[35;134H1[1;51H[?25h[?25l[35;134H2[1;52H[?25h[?25l[35;134H3[1;53H[?25h[?25l[35;134H4[1;54H[?25h[?25l[35;134H5[1;55H[?25h[?25l[35;134H6[1;56H[?25h[?25l[35;134H7[1;57H[?25h[?25l[35;134H8[1;58H[?25h[?25l[35;134H9[1;59H[?25h[?25l[35;133H60[1;60H[?25h[?25l[35;134H1[1;61H[?25h[?25l[35;134H2[1;62H[?25h[?25l[35;134H4[1;64H[?25h[?25l[35;134H5[1;65H[?25h[?25l[35;134H6[1;66H[?25h[?25l[35;134H7[1;67H[?25h[?25l[35;134H8[1;68H[?25h[?25l[35;134H9[1;69H[?25h[?25l[35;133H70[1;70H[?25h[?25l[35;134H2[1;72H[?25h[?25l[35;134H3[1;73H[?25h[?25l[35;134H4[1;74H[?25h[?25l[35;134H5[1;75H[?25h[?25l[35;134H6[1;76H[?25h[?25l[35;134H8[1;78H[?25h[?25l[35;134H9[1;79H[?25h[?25l[1;36H[95m[46m{[43C}[m[35;133H80[1;80H[?25h[?25l[35;134H1[1;81H[?25h[?25l[1;36H[95m{[43C}[m[35;134H3[1;83H[?25h[?25l[35;134H4[1;84H[?25h[?25l[1C[95m[46m{[39C}[m[35;134H5[1;85H[?25h[?25l[95m{[39C}[m[35;134H4[1;84H[?25h[?25l[35;134H3[1;83H[?25h[?25l[35;134H2[1;82H[?25h[?25l[1;36H[95m[46m{[43C}[m[35;134H1[1;81H[?25h[?25l[35;134H0[1;80H[?25h[?25l[95m}[m[95m[46m [m[95mEND{print "Total average salary is: "salary}[m[93m'[m salaried.txt[1;139H[K[1;79H[95m[46m}[m[95m [m[35;133H79[1;79H[?25h[?25l[95m} [m[95m[46mE[m[95mND{print "Total average salary is: "salary}[m[93m'[m salaried.tx[1;137H[K[1;77H[95m[46m}[m[1C[95mE[m[35;134H7[1;77H[?25h[?25l[95m} [m[95m[46mE[m[95mND{print "Total average salary is: "salary}[m[93m'[m salaried.tx[1;135H[K[1;75H[95m[46m}[m[1C[95mE[m[35;134H5[1;75H[?25h[?25l[95m} [m[95m[46mE[m[95mND{print "Total average salary is: "salary}[m[93m'[m salaried.tx[1;133H[K[1;73H[95m[46m}[m[1C[95mE[m[35;134H3[1;73H[?25h[?25l[95m}[m[95m[46m [m[95mEND{print "Total average salary is: "salary}[m[93m'[m salaried.txt[1;132H[K[1;72H[95m[46m}[m[95m [m[35;134H2[1;72H[?25h[?25l[95m}[m[95m[46m [m[95mEND{print "Total average salary is: "salary}[m[93m'[m salaried.txt[1;131H[K[1;71H[95m[46m}[m[95m [m[35;134H1[1;71H[?25h[?25l[95m}[m[95m[46m [m[95mEND{print "Total average salary is: "salary}[m[93m'[m salaried.txt[1;130H[K[1;70H[95m[46m}[m[95m [m[35;134H0[1;70H[?25h[?25l[95m}[m[95m[46m [m[95mEND{print "Total average salary is: "salary}[m[93m'[m salaried.txt[1;129H[K[1;69H[95m[46m}[m[95m [m[35;133H69[1;69H[?25h[?25l[95m} [m[95m[46mE[m[95mND{print "Total average salary is: "salary}[m[93m'[m salaried.tx[1;127H[K[1;67H[95m[46m}[m[1C[95mE[m[35;134H7[1;67H[?25h[?25l[95m}[m[95m[46m [m[95mEND{print "Total average salary is: "salary}[m[93m'[m salaried.txt[1;126H[K[1;66H[95m[46m}[m[95m [m[35;134H6[1;66H[?25h[?25l[95m}[m[95m[46m [m[95mEND{print "Total average salary is: "salary}[m[93m'[m salaried.txt[1;125H[K[1;65H[95m[46m}[m[95m [m[35;134H5[1;65H[?25h[?25l[95m}[m[95m[46m [m[95mEND{print "Total average salary is: "salary}[m[93m'[m salaried.txt[1;124H[K[1;64H[95m[46m}[m[95m [m[35;134H4[1;64H[?25h[?25l[95m}[m[95m[46m [m[95mEND{print "Total average salary is: "salary}[m[93m'[m salaried.txt[1;123H[K[1;63H[95m[46m}[m[95m [m[35;134H3[1;63H[?25h[?25l[95m}[m[95m[46m [m[95mEND{print "Total average 
