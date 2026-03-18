@@ -1,7 +1,7 @@
 id firstname lastname profession salary
 100 Debee Bashemeth developer 35000
-101 Evita Juliet police officer 45000
-102 Carmela Constancy police officer 38000
+101 Evita Juliet police-hawaldaar 45000
+102 Carmela Constancy police-hawaldaar 38000
 103 Florie Publia worker 48000
 104 Leanna Norvol doctor 58000
 105 Diena Whittaker firefighter 68000
