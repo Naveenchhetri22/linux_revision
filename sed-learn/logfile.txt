@@ -1,0 +1,11 @@
+id firstname lastname profession salary
+100 Debee Bashemeth developer 35000
+101 Evita Juliet police officer 45000
+102 Carmela Constancy police officer 38000
+103 Florie Publia worker 48000
+104 Leanna Norvol doctor 58000
+105 Diena Whittaker firefighter 68000
+106 Charlena Chabot firefighter 92000
+107 Shandie Cloris worker 62000
+108 Leanna Iaverne firefighter 78000
+109 Dotty Tacye firefighter 22000
