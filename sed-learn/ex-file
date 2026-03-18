@@ -1,0 +1,11 @@
+#sed commands to print, search, replace with using case insenstitive
+/debee/I s/35000/65000/gp
+
+#sed range of lines
+3,5p
+
+#sed separate range
+1p; 6,8p
+
+#for specific searching data
+/worker/p
